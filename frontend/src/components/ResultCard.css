@@ -1,0 +1,63 @@
+.result-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  border-left: 5px solid #ccc;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.result-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+}
+
+.result-safe {
+  border-left-color: #2ecc71;
+}
+.result-moderate {
+  border-left-color: #f39c12;
+}
+.result-unsafe {
+  border-left-color: #e74c3c;
+}
+
+.result-param {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #666;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.result-value {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 0.75rem;
+}
+
+.result-badge {
+  display: inline-block;
+  padding: 0.3rem 0.9rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.badge-safe {
+  background: #d4edda;
+  color: #155724;
+}
+.badge-moderate {
+  background: #fff3cd;
+  color: #856404;
+}
+.badge-unsafe {
+  background: #f8d7da;
+  color: #721c24;
+}
