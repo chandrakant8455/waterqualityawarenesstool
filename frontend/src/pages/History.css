@@ -1,0 +1,141 @@
+.history {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 3rem;
+}
+
+.history-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.history-header h1 {
+  color: #023e58;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.history-header p {
+  color: #666;
+}
+
+/* Empty State */
+.empty-state {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+}
+
+.empty-icon {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.empty-state h2 {
+  color: #023e58;
+  margin-bottom: 0.5rem;
+}
+
+.empty-state p {
+  color: #888;
+}
+
+/* Trend Chart */
+.trend-chart-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  margin-bottom: 2rem;
+}
+
+.trend-chart-card h3 {
+  color: #023e58;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* History Cards */
+.results-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.history-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.2rem 1.5rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s;
+}
+
+.history-card:hover {
+  transform: translateX(4px);
+}
+
+.history-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.history-date {
+  color: #888;
+  font-size: 0.85rem;
+}
+
+.history-badge {
+  color: #fff;
+  padding: 0.25rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.history-params {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.history-params span {
+  background: #f5f7fa;
+  padding: 0.3rem 0.7rem;
+  border-radius: 8px;
+}
+
+/* Actions */
+.history-actions {
+  text-align: center;
+}
+
+.btn-clear {
+  background: transparent;
+  color: #e74c3c;
+  padding: 0.7rem 2rem;
+  border: 2px solid #e74c3c;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-clear:hover {
+  background: #e74c3c;
+  color: #fff;
+}
+
+@media (max-width: 600px) {
+  .history-params {
+    gap: 0.5rem;
+  }
+}
